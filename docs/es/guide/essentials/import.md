@@ -2,7 +2,7 @@
 
 Además de los componentes de element-ui y los componentes comerciales integrados en el andamio, a veces también necesitamos importar otros componentes externos.
 
-Aquí para importar [vue-count-to](https://github.com/PanJiaChen/vue-countTo) como ejemplo para introducir.
+Aquí para importar [vue-count-to](https://github.com/PAXFE/vue-countTo) como ejemplo para introducir.
 
 ## Instalar dependencia
 

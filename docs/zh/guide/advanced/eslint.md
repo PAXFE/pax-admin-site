@@ -4,18 +4,18 @@
 
 ## 配置项
 
-所有的配置文件都在 [.eslintrc.js](https://github.com/PanJiaChen/vue-element-admin/blob/master/.eslintrc.js) 中。
+所有的配置文件都在 [.eslintrc.js](https://github.com/PAXFE/vue-element-admin/blob/master/.eslintrc.js) 中。
 本项目基本规范是依托于 vue 官方的 eslint 规则 [eslint-config-vue](https://github.com/vuejs/eslint-config-vue) 做了少许的修改。大家可以按照自己的需求进行定制化配置。
 
 比如：我个人或者项目组习惯于使用两个空格，但你可能觉得四个空格更顺眼，你可以做如下修改。
 进入项目 `.eslintrc.js` 中，找到 `indent`，然后修改为 `4` 即可。 还有各种各样的配置信息，详情见 [ESLint 文档](https://eslint.org/docs/rules/)。
 
-在 [v3.8.1](https://github.com/PanJiaChen/vue-element-admin/releases/tag/v3.8.1)版本之后，增加了[eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)来更好的校验 vue 相关代码。
+在 [v3.8.1](https://github.com/PAXFE/vue-element-admin/releases/tag/v3.8.1)版本之后，增加了[eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)来更好的校验 vue 相关代码。
 
 默认情况下使用了最严格的`plugin:vue/recommended`来校验代码，若你觉得太严格可自行修改。
 
 ```js
-// https://github.com/PanJiaChen/vue-element-admin/blob/master/.eslintrc.js
+// https://github.com/PAXFE/vue-element-admin/blob/master/.eslintrc.js
 
 module.exports = {
   extends: ['plugin:vue/recommended', 'eslint:recommended']
@@ -25,7 +25,7 @@ module.exports = {
 
 ## 取消 ESLint 校验
 
-如果你不想使用 ESLint 校验（不推荐取消），只要找到 [vue.config.js](https://github.com/PanJiaChen/vue-element-admin/blob/master/vue.config.js) 文件。
+如果你不想使用 ESLint 校验（不推荐取消），只要找到 [vue.config.js](https://github.com/PAXFE/vue-element-admin/blob/master/vue.config.js) 文件。
 进行如下设置 `lintOnSave: false` 即可。
 
 ## vscode 配置 ESLint

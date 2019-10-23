@@ -83,10 +83,10 @@ Si deseas ignorar esta decisión automática, puedes usar `alwaysShow: true`, pa
 
 ## Rutas anidadas
 
-Si tienes una Ruta anidada, como [@/views/nested](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/views/nested),
+Si tienes una Ruta anidada, como [@/views/nested](https://github.com/PAXFE/vue-element-admin/tree/master/src/views/nested),
 no olvides agregar manualmente `< router-view >` al archivo raíz del directorio secundario.
 
-Por ejemplo: [@/views/nested/menu1/index.vue](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/views/nested/menu1/index.vue).
+Por ejemplo: [@/views/nested/menu1/index.vue](https://github.com/PAXFE/vue-element-admin/blob/master/src/views/nested/menu1/index.vue).
 
 **NOTA:** Agrega tantos `<ruter-view>` como nivel de rutas anidadas.
 
@@ -106,7 +106,7 @@ Sugerencia: si un componente o una función de utilidades solo se usa en esta vi
 
 ## Crear API
 
-Finalmente, bajo la carpeta [@/api](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/api) crea el servicio api correspondiente para este módulo.
+Finalmente, bajo la carpeta [@/api](https://github.com/PAXFE/vue-element-admin/tree/master/src/api) crea el servicio api correspondiente para este módulo.
 
 ## Crear componente
 

@@ -5,7 +5,7 @@ The overall layout of the page is the outermost frame structure of a product and
 ![](https://wpimg.wallstcn.com/7066d74f-12c5-47d6-b6ad-f22b43fec917.png)
 
 ::: tip Code
-[@/layout](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/layout)
+[@/layout](https://github.com/PAXFE/vue-element-admin/tree/master/src/layout)
 :::
 
 `@` is webpack's [alias](https://webpack.js.org/configuration/resolve/#resolve-alias). If don't understand please study it yourself.
@@ -55,13 +55,13 @@ This uses vue-router [routing nesting](https://router.vuejs.org/guide/essentials
 ## app-main
 
 ::: tip Code
-[@/layout/components/AppMain](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/layout/components/AppMain.vue)
+[@/layout/components/AppMain](https://github.com/PAXFE/vue-element-admin/blob/master/src/layout/components/AppMain.vue)
 :::
 
 Here is a layer of `keep-alive` outside the `app-main` is mainly to cache `<router-view>`, with the `tabs-view` tab navigation of the page, if you do not need to [remove](tags-view.md) it.
 
 The `transition` defines the switching animation between pages, you can modify the transition animation according to your own needs. Related [documentation](https://vuejs.org/v2/guide/transitions.html).
-Two transition animations of `fade` and `fade-transform` are provided by default. For specific css implementation, see [transition.scss](https://github.com/PanJiaChen/vue-element-admin/blob/master/src /styles/transition.scss). If you need to adjust, you can adjust the `name` of `transition` in [AppMain.vue](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/layout/components/AppMain.vue).
+Two transition animations of `fade` and `fade-transform` are provided by default. For specific css implementation, see [transition.scss](https://github.com/PAXFE/vue-element-admin/blob/master/src /styles/transition.scss). If you need to adjust, you can adjust the `name` of `transition` in [AppMain.vue](https://github.com/PAXFE/vue-element-admin/blob/master/src/layout/components/AppMain.vue).
 
 <br>
 
@@ -87,7 +87,7 @@ computed: {
 ::: tip
 **Or** You can declare two different views like the `editForm` and `createForm` in this project but introduce the same component.
 
-Code: [@/views/example](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/views/example)
+Code: [@/views/example](https://github.com/PAXFE/vue-element-admin/tree/master/src/views/example)
 :::
 
 ```html

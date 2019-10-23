@@ -14,11 +14,11 @@ npm run build:stage
 
 After the build package is successful, the `dist` folder will be generated in the root directory, which is to build a packaged file, usually static files such as `***.js`, `***.css`, `index.html`, etc. .
 
-If you need a custom build, such as specifying the dist directory, you need to configure it through `outputDir` in [config](https://github.com/PanJiaChen/vue-element-admin/blob/master/vue.config.js).
+If you need a custom build, such as specifying the dist directory, you need to configure it through `outputDir` in [config](https://github.com/PAXFE/vue-element-admin/blob/master/vue.config.js).
 
 ### Environmental variables
 
-The configuration of all test environments or formal environment variables is in the `.env.xxxx` file such as [.env.development](https://github.com/PanJiaChen/vue-element-admin/blob/master/.env.development).
+The configuration of all test environments or formal environment variables is in the `.env.xxxx` file such as [.env.development](https://github.com/PAXFE/vue-element-admin/blob/master/.env.development).
 
 They all inject into the global context via the `webpack.DefinePlugin` plug-ins.
 

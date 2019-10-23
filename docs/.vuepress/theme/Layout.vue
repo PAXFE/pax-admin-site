@@ -5,7 +5,7 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <div v-if="isHome||isDonate" class="home-codefund" id="codefund"></div>
+<!--    <div v-if="isHome||isDonate" class="home-codefund" id="codefund"></div>-->
 
     <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar"/>
 
@@ -59,11 +59,11 @@ export default {
 
         const { path } = val
 
-        if (this.isHome || this.isDonate) {
-          getCodefund('bottom-bar')
-        } else {
-          getCodefund()
-        }
+        // if (this.isHome || this.isDonate) {
+        //   getCodefund('bottom-bar')
+        // } else {
+        //   getCodefund()
+        // }
       },
       immediate: true
     }

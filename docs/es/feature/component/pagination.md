@@ -57,6 +57,6 @@ También se admite soporte de otros atributos del elemento `el-pagination`. Cons
 
 ## Código fuente y Demo
 
-- [Código fuente](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/components/Pagination/index.vue)
+- [Código fuente](https://github.com/PAXFE/vue-element-admin/blob/master/src/components/Pagination/index.vue)
 
 - [Demo en línea](https://panjiachen.github.io/vue-element-admin/#/table/complex-table)

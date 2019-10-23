@@ -1,3 +1,5 @@
+const path = require('path')
+
 var nav = require('./nav.js')
 var { EcosystemNav, ComponentNav } = nav
 
@@ -8,6 +10,7 @@ module.exports = {
   title: 'pax-admin',
   description: 'A magical vue admin',
   base: '/pax-admin-site/',
+  palette: path.resolve(__dirname, 'palette.styl'),
   head: [
     [
       'link',
@@ -18,14 +21,14 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    repo: 'PanJiaChen/vue-element-admin',
-    docsRepo: 'PanJiaChen/pax-admin-site',
+    repo: 'PAXFE/pax-admin',
+    docsRepo: 'PAXFE/pax-admin-site',
     docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
     algolia: {
       apiKey: 'ffce0083d0830de5f562c045a481410b',
-      indexName: 'vue_element_admin'
+      indexName: 'pax_admin'
     },
     locales: {
       '/': {
@@ -154,10 +157,6 @@ module.exports = {
           {
             text: '生态系统',
             items: genNav(deepClone(EcosystemNav), 'ZH')
-          },
-          {
-            text: '捐赠',
-            link: '/zh/donate/'
           },
           {
             text: '中文站点(gitee)',

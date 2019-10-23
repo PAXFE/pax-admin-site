@@ -14,11 +14,11 @@ npm run build:stage
 
 Después de que el paquete de compilación sea exitoso, la carpeta `dist` se generará en el directorio raíz, que es la construcción de un archivo empaquetado, generalmente archivos estáticos como `***. js`, `***. css`, `index.html`, etc.
 
-Si necesitas una compilación personalizada, como especificar el directorio dist, debes configurarlo a través de `outputDir` en [config](https://github.com/PanJiaChen/vue-element-admin/blob/master/vue.config.js).
+Si necesitas una compilación personalizada, como especificar el directorio dist, debes configurarlo a través de `outputDir` en [config](https://github.com/PAXFE/vue-element-admin/blob/master/vue.config.js).
 
 ### Variables de entorno
 
-La configuración de todos los entornos de prueba o variables de entorno formales se encuentra en el archivo `.env.xxxx` como [.env.development](https://github.com/PanJiaChen/vue-element-admin/blob/master/.env.development).
+La configuración de todos los entornos de prueba o variables de entorno formales se encuentra en el archivo `.env.xxxx` como [.env.development](https://github.com/PAXFE/vue-element-admin/blob/master/.env.development).
 
 Todos se inyectan en el contexto global a través de los complementos `webpack.DefinePlugin`.
 

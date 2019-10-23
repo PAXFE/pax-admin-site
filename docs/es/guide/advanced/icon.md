@@ -1,6 +1,6 @@
 # Icon
 
-If you do not find the desired icon in the [Icon](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/icons/svg) of this project, you can select and generate your own business icon library on [iconfont.cn](http://iconfont.cn/)and use it again. Or other svg icon website, download svg and put it in this folder.
+If you do not find the desired icon in the [Icon](https://github.com/PAXFE/vue-element-admin/tree/master/src/icons/svg) of this project, you can select and generate your own business icon library on [iconfont.cn](http://iconfont.cn/)and use it again. Or other svg icon website, download svg and put it in this folder.
 
 ## Generate icon library code
 
@@ -35,7 +35,7 @@ After the download is complete, the downloaded .svg file is automatically import
 You can change the parent's `color` or change the color of `fill` directly.
 
 :::tip
-If you encounter an incorrect icon color, you can refer to this[issue](https://github.com/PanJiaChen/vue-element-admin/issues/330)
+If you encounter an incorrect icon color, you can refer to this[issue](https://github.com/PAXFE/vue-element-admin/issues/330)
 :::
 
 ## Detailed articles
@@ -44,6 +44,6 @@ If you encounter an incorrect icon color, you can refer to this[issue](https://g
 
 ## Currently available icons
 
-[src/icons/svg](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/icons/svg)
+[src/icons/svg](https://github.com/PAXFE/vue-element-admin/tree/master/src/icons/svg)
 
 Online [Preview Address](https://panjiachen.github.io/vue-element-admin/#/icon/index)

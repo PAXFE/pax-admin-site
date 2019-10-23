@@ -19,7 +19,7 @@
     "semi": false,
     "singleQuote": true
   },
-  "author": "PanJiaChen",
+  "author": "PAXFE",
   "license": "ISC",
   "devDependencies": {
     "prettier": "1.14.2",

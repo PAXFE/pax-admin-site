@@ -7,7 +7,7 @@
 ![](https://wpimg.wallstcn.com/7066d74f-12c5-47d6-b6ad-f22b43fec917.png)
 
 ::: tip 对应代码
-[@/layout](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/layout)
+[@/layout](https://github.com/PAXFE/vue-element-admin/tree/master/src/layout)
 :::
 
 `@` 是 webpack 的 [alias](https://webpack.js.org/configuration/resolve/#resolve-alias) 不懂得请自行研究
@@ -59,12 +59,12 @@
 ## app-main
 
 ::: tip 对应代码
-[@/layout/components/AppMain](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/layout/components/AppMain.vue)
+[@/layout/components/AppMain](https://github.com/PAXFE/vue-element-admin/blob/master/src/layout/components/AppMain.vue)
 :::
 
 这里在 `app-main` 外部包了一层 `keep-alive` 主要是为了缓存 `<router-view>` 的，配合页面的 `tabs-view` 标签导航使用，如不需要可自行[去除](tags-view.md)。
 
-其中`transition` 定义了页面之间切换动画，可以根据自己的需求，自行修改转场动画。相关[文档](https://cn.vuejs.org/v2/guide/transitions.html)。默认提供了`fade`和`fade-transform`两个转场动画，具体 css 实现见[transition.scss](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/styles/transition.scss)。如果需要调整可在[AppMain.vue](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/layout/components/AppMain.vue)中调整`transition` 的 `name`。
+其中`transition` 定义了页面之间切换动画，可以根据自己的需求，自行修改转场动画。相关[文档](https://cn.vuejs.org/v2/guide/transitions.html)。默认提供了`fade`和`fade-transform`两个转场动画，具体 css 实现见[transition.scss](https://github.com/PAXFE/vue-element-admin/blob/master/src/styles/transition.scss)。如果需要调整可在[AppMain.vue](https://github.com/PAXFE/vue-element-admin/blob/master/src/layout/components/AppMain.vue)中调整`transition` 的 `name`。
 
 <br>
 
@@ -90,7 +90,7 @@ computed: {
 ::: tip
 **或者** 可以像本项目中 `editForm` 和 `createForm` 声明两个不同的 view 但引入同一个 component。
 
-示例代码：[@/views/example](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/views/example)
+示例代码：[@/views/example](https://github.com/PAXFE/vue-element-admin/tree/master/src/views/example)
 :::
 
 ```html

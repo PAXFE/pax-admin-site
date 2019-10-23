@@ -1,13 +1,13 @@
 # pax-admin-site
-The documentation source of [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+The documentation source of [pax-admin](https://github.com/PAXFE/pax-admin)
 
-[Online](https://panjiachen.github.io/pax-admin-site)
+[Online](https://paxfe.github.io/pax-admin-site)
 
 ## Development
 
 ```bash
 # clone the project
-git clone git@github.com:PanJiaChen/pax-admin-site.git
+git clone git@github.com:PAXFE/pax-admin-site.git
 
 # install dependency
 npm install

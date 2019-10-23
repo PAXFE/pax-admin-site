@@ -6,11 +6,11 @@ pageClass: getting-started
 
 [![vue](https://img.shields.io/badge/vue-2.6.10-brightgreen.svg)](https://github.com/vuejs/vue)
 [![element-ui](https://img.shields.io/badge/element--ui-2.7.0-brightgreen.svg)](https://github.com/ElemeFE/element)
-[![Build Status](https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master)](https://travis-ci.org/PanJiaChen/vue-element-admin)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg)](https://github.com/PanJiaChen/vue-element-admin/releases)
+[![Build Status](https://travis-ci.org/PAXFE/vue-element-admin.svg?branch=master)](https://travis-ci.org/PAXFE/vue-element-admin)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/PAXFE/vue-element-admin/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/PAXFE/vue-element-admin.svg)](https://github.com/PAXFE/vue-element-admin/releases)
 [![donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://panjiachen.gitee.io/pax-admin-site/zh/donate)
-[![GitHub stars](https://img.shields.io/github/stars/PanJiaChen/vue-element-admin.svg?style=social&label=Stars)](https://github.com/PanJiaChen/vue-element-admin)
+[![GitHub stars](https://img.shields.io/github/stars/PAXFE/vue-element-admin.svg?style=social&label=Stars)](https://github.com/PAXFE/vue-element-admin)
 
 [vue-element-admin](http://panjiachen.github.io/vue-element-admin) es una solución front-end lista para producción para interfaces de administración. Se basa en [vue](https://github.com/vuejs/vue) y utiliza el kit de interfaz de usuario [element-ui](https://github.com/ElemeFE/element).
 
@@ -18,13 +18,13 @@ Es un administrador vue mágico basado en el nuevo conjunto de desarrollo de vue
 
 :::tip
 Este proyecto integra muchas características que no puedes usar, causará mucha redundancia de código. Si tu proyecto no presta atención a este problema, también puedes desarrollarlo directamente basándote en él.
-De lo contrario, puedes usar [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template).
+De lo contrario, puedes usar [vue-admin-template](https://github.com/PAXFE/vue-admin-template).
 
-- Solución integrada: [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-- Plantilla Básica: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
-- Desktop: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
+- Solución integrada: [vue-element-admin](https://github.com/PAXFE/vue-element-admin)
+- Plantilla Básica: [vue-admin-template](https://github.com/PAXFE/vue-admin-template)
+- Desktop: [electron-vue-admin](https://github.com/PAXFE/electron-vue-admin)
 - Typescript: [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Créditos: [@Armour](https://github.com/Armour))
-- Otros: [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
+- Otros: [awesome-project](https://github.com/PAXFE/vue-element-admin/issues/2312)
   :::
 
 <br/>
@@ -160,7 +160,7 @@ Este proyecto ha incorporado las siguientes plantillas, y han construido un anda
 
 ```bash
 # clonar el proyecto
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/PAXFE/vue-element-admin.git
 
 # entrar en el directorio del proyecto
 cd vue-element-admin
@@ -190,11 +190,11 @@ Tenemos modelos integrados, componentes estándar, datos simulados, recarga mód
 
 ## Contribución
 
-El repositorio de documentación es [pax-admin-site](https://github.com/PanJiaChen/pax-admin-site) basado en el desarrollo [vuepress](https://github.com/vuejs/vuepress).
+El repositorio de documentación es [pax-admin-site](https://github.com/PAXFE/pax-admin-site) basado en el desarrollo [vuepress](https://github.com/vuejs/vuepress).
 
 Puede haber algunos errores ortográficos o de traducción al escribir este documento. Eres bienvenido a señalar por issue o por pr.
 
-[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) también continúa iterando, resumiendo y resumiendo más funciones, y resume las mejores prácticas de los escenarios de productos templates/components/business de negocio en el medio y de back office. Este proyecto también espera tu participación y [comentarios](https://github.com/PanJiaChen/vue-element-admin/issues).
+[vue-element-admin](https://github.com/PAXFE/vue-element-admin) también continúa iterando, resumiendo y resumiendo más funciones, y resume las mejores prácticas de los escenarios de productos templates/components/business de negocio en el medio y de back office. Este proyecto también espera tu participación y [comentarios](https://github.com/PAXFE/vue-element-admin/issues).
 
 ## Donar
 

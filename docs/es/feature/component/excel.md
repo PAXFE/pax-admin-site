@@ -4,7 +4,7 @@
 
 La importación y exportación de Excel se implementa confiando en [js-xlsx](https://github.com/SheetJS/js-xlsx).
 
-[Export2Excel.js](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/vendor/Export2Excel.js) está empaquetado en el `js-xlsx` para facilitar la exportación de datos.
+[Export2Excel.js](https://github.com/PAXFE/vue-element-admin/blob/master/src/vendor/Export2Excel.js) está empaquetado en el `js-xlsx` para facilitar la exportación de datos.
 
 ### Uso
 
@@ -62,11 +62,11 @@ import('@/vendor/Export2Excel').then(excel => {
 ```
 
 - [Demo en línea](https://panjiachen.github.io/vue-element-admin/#/excel/export-excel)
-- [Código en línea](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/views/excel/exportExcel.vue)
+- [Código en línea](https://github.com/PAXFE/vue-element-admin/blob/master/src/views/excel/exportExcel.vue)
 
 ## Importación de Excel
 
-El componente encapsulado de importación de Excel [UploadExcel](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/components/UploadExcel/index.vue), soporta clic, arrastrar y cargar, también depende de `js-xlsx`.
+El componente encapsulado de importación de Excel [UploadExcel](https://github.com/PAXFE/vue-element-admin/blob/master/src/components/UploadExcel/index.vue), soporta clic, arrastrar y cargar, también depende de `js-xlsx`.
 
 Proporciona dos funciones de devolución de llamada (callback):
 
@@ -101,4 +101,4 @@ Proporciona dos funciones de devolución de llamada (callback):
 ```
 
 - [Demo en línea](https://panjiachen.github.io/vue-element-admin/#/excel/upload-excel)
-- [Código en línea](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/views/excel/uploadExcel.vue)
+- [Código en línea](https://github.com/PAXFE/vue-element-admin/blob/master/src/views/excel/uploadExcel.vue)

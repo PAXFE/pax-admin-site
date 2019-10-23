@@ -22,7 +22,7 @@
 
 ## 请求
 
-项目里所有的请求都会走`@/utils/request.js`里面创建的的 axios 实例，它统一做了错误处理，[完整代码](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/utils/request.js)。
+项目里所有的请求都会走`@/utils/request.js`里面创建的的 axios 实例，它统一做了错误处理，[完整代码](https://github.com/PAXFE/vue-element-admin/blob/master/src/utils/request.js)。
 
 你可以在`service.interceptors.response` response 拦截器之中根据自己的实际业务统一针对不同的状态码或者根据自定义 code 来做错误处理。如：
 
@@ -92,7 +92,7 @@ getInfo()
 ![](https://wpimg.wallstcn.com/360e4842-4db5-42d0-b078-f9a84a825546.gif)
 
 ::: tip
-监听错误：[@/errorLog.js](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/errorLog.js)
+监听错误：[@/errorLog.js](https://github.com/PAXFE/vue-element-admin/blob/master/src/errorLog.js)
 
-错误展示组件：[@/components/ErrorLog](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/components/ErrorLog/index.vue)
+错误展示组件：[@/components/ErrorLog](https://github.com/PAXFE/vue-element-admin/blob/master/src/components/ErrorLog/index.vue)
 :::

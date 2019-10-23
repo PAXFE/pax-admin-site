@@ -17,14 +17,14 @@ features:
     details: Solución internacional universal integrada en la industria
   - title: Tematización
     details: Soporta múltiples métodos de temas dinámicos.
-footer: Licencia MIT | Derechos de autor © 2017-presente PanJiaChen
+footer: Licencia MIT | Derechos de autor © 2019-presente PAXFE
 ---
 
 ## Empezando
 
 ```bash
 # clonar el proyecto
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/PAXFE/vue-element-admin.git
 
 # instalar dependencias
 npm install

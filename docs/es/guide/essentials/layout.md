@@ -5,7 +5,7 @@ El diseño general de la página es la estructura de un producto y a menudo incl
 ![](https://wpimg.wallstcn.com/7066d74f-12c5-47d6-b6ad-f22b43fec917.png)
 
 ::: tip Código
-[@/layout](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/layout)
+[@/layout](https://github.com/PAXFE/vue-element-admin/tree/master/src/layout)
 :::
 
 `@` es el [alias](https://webpack.js.org/configuration/resolve/#resolve-alias) de webpack. Si no lo entiendes por favor estudíalo por tu cuenta.
@@ -55,14 +55,14 @@ Esto utiliza vue-router [anidación de enrutamiento](https://router.vuejs.org/gu
 ## app-main
 
 ::: tip Código
-[@/layout/components/AppMain](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/layout/components/AppMain.vue)
+[@/layout/components/AppMain](https://github.com/PAXFE/vue-element-admin/blob/master/src/layout/components/AppMain.vue)
 :::
 
 Aquí hay una capa de `keep-alive`, afuera `app-main` es principalmente para almacenar en caché `<router-view>`, con la navegación de la pestaña `tabs-view` de la página, si no lo necesitas [eliminalo](tags-view.md).
 
 `transition` define la animación de cambio entre páginas, puedes modificar la animación de transición según tus propias necesidades. [Documentación](https://vuejs.org/v2/guide/transitions.html) relacionada.
 
-Se proporcionan dos animaciones de transición de forma predeterminada `fade` y `fade-transform`. Para la implementación específica de CSS, consulta [transition.scss](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/styles/transition.scss). Si necesitas cambiarla, puedes modificar `name` de `transition` en [AppMain.vue](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/layout/components/AppMain.vue).
+Se proporcionan dos animaciones de transición de forma predeterminada `fade` y `fade-transform`. Para la implementación específica de CSS, consulta [transition.scss](https://github.com/PAXFE/vue-element-admin/blob/master/src/styles/transition.scss). Si necesitas cambiarla, puedes modificar `name` de `transition` en [AppMain.vue](https://github.com/PAXFE/vue-element-admin/blob/master/src/layout/components/AppMain.vue).
 
 <br>
 
@@ -88,7 +88,7 @@ computed: {
 ::: tip
 **O** Puedes declarar dos vistas diferentes, como `editForm` y `createForm` en este proyecto, pero introducirlo en el mismo componente.
 
-Código: [@/views/example](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/views/example)
+Código: [@/views/example](https://github.com/PAXFE/vue-element-admin/tree/master/src/views/example)
 :::
 
 ```html

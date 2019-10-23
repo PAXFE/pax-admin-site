@@ -99,9 +99,9 @@ La barra lateral del proyecto se basa principalmente en `el-menu` de element-ui.
 
 Se introdujo en el front, la barra lateral se genera dinámicamente al leer la ruta y se combina con el juez de permisos, pero también debe soportar la anidación infinita de rutas, por lo que aquí también se usa para los componentes recursivos.
 
-> Código: [@/views/layout/components/Sidebar](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/layout/components/Sidebar)
+> Código: [@/views/layout/components/Sidebar](https://github.com/PAXFE/vue-element-admin/tree/master/src/layout/components/Sidebar)
 
-Es posible modificar el estilo predeterminado de la barra lateral de `element-ui`. Todo el CSS lo puedes encontrar en [@/styles/sidebar.scss](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/styles/sidebar.scss) y modificarlo para satisfacer tus necesidades.
+Es posible modificar el estilo predeterminado de la barra lateral de `element-ui`. Todo el CSS lo puedes encontrar en [@/styles/sidebar.scss](https://github.com/PAXFE/vue-element-admin/blob/master/src/styles/sidebar.scss) y modificarlo para satisfacer tus necesidades.
 
 **Aquí hay que prestar atención**. La barra lateral general tiene dos formas, `submenu` y `el-menu-item`. Uno es un submenú anidado, el otro es un enlace directo. Como se muestra abajo:
 
@@ -139,15 +139,15 @@ La barra lateral ya te ha ayudado a hacer un juicio. Cuando agregas más de un h
 ```
 
 ::: tip unique-opened
-Puedes configurar `unique-opened` en [Sidebar/index.vue](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/layout/components/Sidebar/index.vue). Para controlar la barra lateral, si deseas mantener solo un submenú expandido.
+Puedes configurar `unique-opened` en [Sidebar/index.vue](https://github.com/PAXFE/vue-element-admin/blob/master/src/layout/components/Sidebar/index.vue). Para controlar la barra lateral, si deseas mantener solo un submenú expandido.
 :::
 
 ## Rutas anidadas
 
-Si tienes una ruta anidada, como [@/views/nested](https://github.com/PanJiaChen/vue-element-admin/tree/master/src/views/nested),
+Si tienes una ruta anidada, como [@/views/nested](https://github.com/PAXFE/vue-element-admin/tree/master/src/views/nested),
 No olvides agregar manualmente `<router-view>` al archivo raíz del directorio secundario.
 
-Tal como: [@/views/nested/menu1/index.vue](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/views/nested/menu1/index.vue).
+Tal como: [@/views/nested/menu1/index.vue](https://github.com/PAXFE/vue-element-admin/blob/master/src/views/nested/menu1/index.vue).
 
 **NOTA:** Tantos `<router-view>` como nivel de rutas anidadas.
 
@@ -201,7 +201,7 @@ La página `redirect` se redirige de nuevo a la página original
 
 ```js
 // redirect.vue
-// https://github.com/PanJiaChen/vue-element-admin/blob/master/src/views/redirect/index.vue
+// https://github.com/PAXFE/vue-element-admin/blob/master/src/views/redirect/index.vue
 export default {
   beforeCreate() {
     const { params, query } = this.$route
@@ -222,7 +222,7 @@ Este proyecto también incluye una navegación con breadcrumb, que también se g
 
 ![](https://wpimg.wallstcn.com/4c60b3fc-febd-4e22-9150-724dcbd25a8e.gif)
 
-> Código correspondiente: [@/components/Breadcrumb](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/components/Breadcrumb/index.vue)
+> Código correspondiente: [@/components/Breadcrumb](https://github.com/PAXFE/vue-element-admin/blob/master/src/components/Breadcrumb/index.vue)
 
 ## Problema de desplazamiento de la barra lateral
 
@@ -242,7 +242,7 @@ En segundo lugar, en el caso de colapsos de la barra lateral, limitados al `menu
 Entonces, la versión actual usa `el-scrollbar` para encargarse del problema de desplazamiento de la barra lateral.
 
 ::: tip Código
-[@/components/Sidebar](https://github.com/PanJiaChen/vue-element-admin/blob/master/src/views/layout/components/Sidebar/index.vue)
+[@/components/Sidebar](https://github.com/PAXFE/vue-element-admin/blob/master/src/views/layout/components/Sidebar/index.vue)
 :::
 
 ## Enlace externo en la barra lateral <Badge text="v3.8.2+"/>
@@ -257,7 +257,7 @@ P.ej.
   "component": Layout,
   "children": [
     {
-      "path": "https://github.com/PanJiaChen/vue-element-admin",
+      "path": "https://github.com/PAXFE/vue-element-admin",
       "meta": { "title": "externalLink", "icon": "link" }
     }
   ]
