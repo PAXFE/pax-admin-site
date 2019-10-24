@@ -104,7 +104,6 @@ function genEssentialsSidebar(type = '') {
     '/guide/essentials/new-page.md',
     '/guide/essentials/style.md',
     '/guide/essentials/server.md',
-    '/guide/essentials/mock-api.md',
     '/guide/essentials/import.md',
     '/guide/essentials/deploy.md',
     '/guide/essentials/env.md'
