@@ -9,7 +9,6 @@ pageClass: getting-started
 [![Build Status](https://travis-ci.org/PAXFE/pax-admin.svg?branch=master)](https://travis-ci.org/PAXFE/pax-admin)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/PAXFE/pax-admin/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/PAXFE/pax-admin.svg)](https://github.com/PAXFE/pax-admin/releases)
-[![donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://panjiachen.gitee.io/pax-admin-site/zh/donate)
 [![GitHub stars](https://img.shields.io/github/stars/PAXFE/pax-admin.svg?style=social&label=Stars)](https://github.com/PAXFE/pax-admin)
 
 <!-- <CodingAD /> -->
@@ -110,7 +109,6 @@ pageClass: getting-started
 
 ```bash
 ├── build                      # 构建相关
-├── mock                       # 项目mock 模拟数据
 ├── plop-templates             # 基本模板
 ├── public                     # 静态资源
 │   │── favicon.ico            # favicon图标
@@ -174,30 +172,13 @@ Windows 用户若安装不成功，很大概率是`node-sass`安装失败，[解
 
 <br/>
 
-启动完成后会自动打开浏览器访问 [http://localhost:9527](http://localhost:9527)， 你看到下面的页面就代表操作成功了。
+启动完成后会自动打开浏览器访问 [http://localhost:3000](http://localhost:3000)， 你看到下面的页面就代表操作成功了。
 
 ![](https://wpimg.wallstcn.com/1bc334a6-32a8-4f29-a037-ac3f5ce32588.png)
 
 接下来你可以修改代码进行业务开发了，本项目内建了典型业务模板、常用业务组件、模拟数据、HMR 实时预览、状态管理、国际化、全局路由等等各种实用的功能来辅助开发，你可以继续阅读和探索左侧的其它文档。
 
 <br/>
-
-::: tip 建议
-你可以把 `pax-admin`当做工具箱或者集成方案仓库，在 `vue-admin-template` 的基础上进行二次开发，想要什么功能或者组件就去 `pax-admin` 那里复制过来。
-:::
-
-## Contribution
-
-本文档项目地址 [pax-admin-site](https://github.com/PAXFE/pax-admin-site) 基于 [vuepress](https://github.com/vuejs/vuepress)开发。
-
-有任何修改和建议都可以该项目 pr 和 issue
-
-[pax-admin](https://github.com/PAXFE/pax-admin) 还在持续迭代中，逐步沉淀和总结出更多功能和相应的实现代码，总结中后台产品模板/组件/业务场景的最佳实践。本项目也十分期待你的参与和[反馈](https://github.com/PAXFE/pax-admin/issues)。
-
-## 捐赠
-
-如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 :heart:
-[Donate](/donate/)
 
 ## Browsers Support
 
@@ -207,10 +188,6 @@ Modern browsers and Internet Explorer 10+.
 | [<img class="no-margin" src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img class="no-margin" src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img class="no-margin" src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img class="no-margin" src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
 | --------- | --------- | --------- | --------- |
 | IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions
-
-## 其它
-
-群主 **[圈子](https://jianshiapp.com/circles/1209)** 群主会经常分享一些技术相关的东西，或者加入 [qq 群](https://github.com/PAXFE/pax-admin/issues/602) 或者关注 [微博](https://weibo.com/u/3423485724?is_all=1)。
 
 ## Vue 生态圈
 

@@ -70,9 +70,9 @@ meta: {
 具体的会在 [权限验证](permission.md) 页面介绍。
 
 ::: tip
-这里所有的路由页面都使用 `路由懒加载` 了 ，具体介绍见[文档](/zh/guide/advanced/lazy-loading.html)
+这里所有的路由页面都使用 `路由懒加载` 了 ，具体介绍见[文档](/guide/advanced/lazy-loading.html)
 
-如果你想了解更多关于 browserHistory 和 hashHistory，请参看 [构建和发布](/zh/guide/essentials/deploy.html)。
+如果你想了解更多关于 browserHistory 和 hashHistory，请参看 [构建和发布](/guide/essentials/deploy.html)。
 :::
 
 其它的配置和 [vue-router](https://router.vuejs.org/zh-cn/) 官方并没有区别，自行查看文档。
@@ -90,7 +90,7 @@ meta: {
 前面也介绍了，侧边栏是通过读取路由并结合权限判断而动态生成的，而且还需要支持路由无限嵌套，所以这里还使用到了递归组件。
 
 ::: tip 代码地址
-[@/views/layout/components/Sidebar](https://github.com/PAXFE/pax-admin/tree/master/src/layout/components/Sidebar)
+[@/views/layout/components/Sidebar](https://github.com/PAXFE/pax-admin/blob/master/src/layout/components/Sidebar)
 :::
 
 这里同时也改造了 `element-ui` 默认侧边栏不少的样式，所有的 css 都可以在 [@/styles/sidebar.scss](https://github.com/PAXFE/pax-admin/blob/master/src/styles/sidebar.scss) 中找到，你也可以根据自己的需求进行修改。
