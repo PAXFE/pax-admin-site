@@ -64,6 +64,5 @@ var ComponentNav = [
 ]
 
 module.exports = {
-  EcosystemNav,
   ComponentNav
 }
